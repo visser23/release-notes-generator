@@ -2,10 +2,10 @@ import requests
 from docx import Document
 
 # Jira and Confluence details
-JIRA_BASE_URL = 'https://servita-uk.atlassian.net/jira/'
+JIRA_BASE_URL = 'https://servita-uk.atlassian.net/jira'
 JIRA_API_USERNAME = 'matt.visser@servita.com'
 JIRA_API_TOKEN = 'ATATT3xFfGF0h1WuFZJy9jXFViCDlYVYILzWtqukLDHbEH2_KJIeP2zMx5m4yF2ENPYnUkMfaRRw9pSgDx8bdS3DH_bqAGglcsIF8RetSA4CxR2DSxIvmJXap-xrarRh4lyigKPnF-fyV75L34pyuedQws8Nv9RLXqwePRCz3BjuA_eQ16aDYJ0=5A479038'
-CONFLUENCE_BASE_URL = 'https://servita-uk.atlassian.net/wiki/'
+CONFLUENCE_BASE_URL = 'https://servita-uk.atlassian.net/wiki'
 CONFLUENCE_PAGE_ID = '139853825'
 CONFLUENCE_API_USERNAME = 'matt.visser@servita.com'
 CONFLUENCE_API_TOKEN = 'ATATT3xFfGF0h1WuFZJy9jXFViCDlYVYILzWtqukLDHbEH2_KJIeP2zMx5m4yF2ENPYnUkMfaRRw9pSgDx8bdS3DH_bqAGglcsIF8RetSA4CxR2DSxIvmJXap-xrarRh4lyigKPnF-fyV75L34pyuedQws8Nv9RLXqwePRCz3BjuA_eQ16aDYJ0=5A479038'
