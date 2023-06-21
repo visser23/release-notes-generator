@@ -2,13 +2,13 @@ import requests
 from docx import Document
 
 # Jira and Confluence details
-JIRA_BASE_URL = 'https://your-jira-instance.atlassian.net'
-JIRA_API_USERNAME = 'your-jira-username'
-JIRA_API_TOKEN = 'your-jira-api-token'
-CONFLUENCE_BASE_URL = 'https://your-confluence-instance.atlassian.net'
-CONFLUENCE_PAGE_ID = 'your-confluence-page-id'
-CONFLUENCE_API_USERNAME = 'your-confluence-username'
-CONFLUENCE_API_TOKEN = 'your-confluence-api-token'
+JIRA_BASE_URL = 'https://servita-uk.atlassian.net/jira/'
+JIRA_API_USERNAME = 'matt.visser@servita.com'
+JIRA_API_TOKEN = 'ATATT3xFfGF0h1WuFZJy9jXFViCDlYVYILzWtqukLDHbEH2_KJIeP2zMx5m4yF2ENPYnUkMfaRRw9pSgDx8bdS3DH_bqAGglcsIF8RetSA4CxR2DSxIvmJXap-xrarRh4lyigKPnF-fyV75L34pyuedQws8Nv9RLXqwePRCz3BjuA_eQ16aDYJ0=5A479038'
+CONFLUENCE_BASE_URL = 'https://servita-uk.atlassian.net/wiki/'
+CONFLUENCE_PAGE_ID = '139853825'
+CONFLUENCE_API_USERNAME = 'matt.visser@servita.com'
+CONFLUENCE_API_TOKEN = 'ATATT3xFfGF0h1WuFZJy9jXFViCDlYVYILzWtqukLDHbEH2_KJIeP2zMx5m4yF2ENPYnUkMfaRRw9pSgDx8bdS3DH_bqAGglcsIF8RetSA4CxR2DSxIvmJXap-xrarRh4lyigKPnF-fyV75L34pyuedQws8Nv9RLXqwePRCz3BjuA_eQ16aDYJ0=5A479038'
 
 def generate_release_notes(released_fix_version):
     # Retrieve Jira issues for the released fix version
